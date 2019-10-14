@@ -1,4 +1,5 @@
 # Schwift
+> Compatible with Swift 5.1; Swift Package Manager support coming soon
 Miss being able to quickly increment a variable with `++`? <br> 
 Or find it annoying to have to use `.pointee` to dereference a pointer? <br> <br>
 If you ever find yourself reminiscing for the old days of basic C operators, then Schwift is the library for you. It brings back all those old operators and more to make Swift feel like home. <br>
@@ -15,7 +16,7 @@ Here's a quick sample of all the use cases
 ```swift
 let a : Int = 42
 
-a++ // returns 42 and increments a and
+a++ // returns 42 and increments a
 ++a // increments a and returns 44
 
 a-- // returns 44 and decrements a
